@@ -5,19 +5,19 @@
 
 @layer components {
     .card {
-      @apply w-48 h-64 shadow-md rounded-lg;
+      @apply w-48 h-64 shadow-md rounded-lg flex-none;
     }
     .card > div:first-child {
       @apply w-full h-3/5 rounded-t-lg bg-cover;
     }
     .card > div:nth-child(2) {
-      @apply w-full h-2/5 bg-secondary rounded-b-lg flex items-center justify-center flex-col;
+      @apply w-full h-2/5 rounded-b-lg flex items-center justify-center flex-col px-4;
     }
     .card > div:nth-child(2) > p:first-child {
-      @apply text-white font-bold text-lg;
+      @apply font-bold text-lg;
     }
     .card > div:nth-child(2) > p:nth-child(2) {
-      @apply text-white text-base;
+      @apply text-base;
     }
   }
 
