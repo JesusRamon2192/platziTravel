@@ -19,5 +19,14 @@
     .card > div:nth-child(2) > p:nth-child(2) {
       @apply text-base;
     }
+    .containerCard {
+      @apply w-full h-96  bg-cover rounded-xl
+    }
+    .containerCard p:nth-child(1) {
+      @apply text-3xl px-8 pt-8 pb-2 font-semibold text-white
+    }
+    .containerCard p:nth-child(2) {
+      @apply text-sm pl-8 text-white mr-24
+    }
   }
 
